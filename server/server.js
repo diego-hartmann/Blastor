@@ -12,7 +12,7 @@ app.use(cors("*"));
 require("mongoose").connect(process.env.DB_URI, { useNewUrlPArser: true, useUnifiedTopology: true })
 
 // DB MODELS
-require('./model/Account'); // rodando o codigo só
+require('./model/Account'); // running
 
 // routes
 require('./routes/authRoutes.js')(app);

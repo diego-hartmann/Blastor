@@ -7,8 +7,8 @@ using TMPro;
 
 public class Auth : MonoBehaviour
 {
-    // private string Url(string endpoint) => $"http://localhost:8080/account/{endpoint}";
-    private string Url(string endpoint) => $"http://unitygameservice-env.eba-3qvec4m9.sa-east-1.elasticbeanstalk.com/account/{endpoint}";
+    [SerializeField] private string apiPAth = "";
+    private string Url(string _endpoint) => $"{this.apiPAth}/{_endpoint}";
 
     [SerializeField] private TextMeshProUGUI alertText = null;
     [SerializeField] private Button loginButton = null;
