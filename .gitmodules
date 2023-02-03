@@ -1,0 +1,6 @@
+[submodule "Project/game-client"]
+	path = Project/game-client
+	url = https://github.com/diego-hartmann/game-client
+[submodule "Project/game-server"]
+	path = Project/game-server
+	url = https://github.com/diego-hartmann/game-server
