@@ -1,0 +1,26 @@
+{
+  "name": "loginbackend",
+  "version": "1.0.0",
+  "description": "backend for login project",
+  "main": "server.js",
+  "scripts": {
+    "dev": "npx nodemon server.js",
+    "production": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Diego Hartmann",
+  "license": "ISC",
+  "dependencies": {
+    "argon2-ffi": "^2.0.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.3",
+    "node-gyp": "^9.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

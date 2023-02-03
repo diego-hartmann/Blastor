@@ -1,0 +1,1 @@
+public delegate void SetAlertCallback(string mess, bool interactable = true);
